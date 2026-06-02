@@ -12,6 +12,7 @@ An R-based data analysis project that aggregates individual patient line-list da
 * `COVID19_line_list_data.csv`: The raw input dataset containing individual patient tracking rows.
 * `covid_analysis.R`: The complete script containing cleaning routines, t-test operations, table merges, and plotting syntax.
 * `topCases.png`: An export (800x600 px) displaying a cleanly scaled bar chart of the top 5 global hotspots by volume of reported cases.
+![Top 5 Countries Bar Chart](topCases.png)
 
 # Code Breakdown & Methodologies
 1. Data Cleaning: using numeric evaluations to compress varying data entries into binary factors (`0` or `1`).
