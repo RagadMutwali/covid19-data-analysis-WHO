@@ -9,12 +9,9 @@ An R-based data analysis project that aggregates individual patient line-list da
 * Country-Level Summaries: generates a summarised table breaking down total cases, total deaths, and case fatality rates mapped out across all unique countries in the dataset.
 
 # Repository Structure
-* `COVID19_line_list_data.csv`: The raw input dataset containing individual patient tracking rows.
-* `covid_analysis.R`: The complete script containing cleaning routines, t-test operations, table merges, and plotting syntax.
-* `topCases.png`: An export (800x600 px) displaying a cleanly scaled bar chart of the top 5 global hotspots by volume of reported cases.
-
-  
-![Top 5 Countries Bar Chart](topCases.png)
+* [COVID19_line_list_data.csv](COVID19_line_list_data.csv): The raw input dataset containing individual patient tracking rows.
+* [covid_analysis.R](covid_analysis.R): The complete script containing cleaning routines, t-test operations, table merges, and plotting syntax.
+* [topCases.png](topCases.png): An export (800x600 px) displaying a cleanly scaled bar chart of the top 5 global hotspots by volume of reported cases.
 
 # Code Breakdown & Methodologies
 1. Data Cleaning: using numeric evaluations to compress varying data entries into binary factors (`0` or `1`).
